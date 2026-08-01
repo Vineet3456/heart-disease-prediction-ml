@@ -35,7 +35,22 @@ An ensemble learning algorithm that combines multiple decision trees to improve 
 
 ## Model Evaluation
 
-The models were evaluated using classification metrics and visualizations to compare their performance.
+The models were evaluated using accuracy, precision, recall, and F1-score.
+
+| Metric    | Logistic Regression | Random Forest |
+|-----------|---------------------|---------------|
+| Accuracy  |        85.5%        |     85.5%     |
+| Precision |        50.0%        |     50.0%     |
+| Recall    |         6.5%        |      4.1%     |
+| F1 Score  |        11.5%        |      7.5%     |
+
+### Results Interpretation
+
+Both models achieved the same accuracy of 85.5%. However, accuracy alone can be misleading for this dataset because the classes are imbalanced.
+
+Logistic Regression performed better in terms of recall and F1-score, detecting more positive cases than Random Forest.
+
+The relatively low recall indicates that both models miss a significant number of positive cases. Therefore, these models should be considered as an academic machine learning project rather than a clinically deployable prediction system.
 
 ## Visualizations
 
