@@ -52,6 +52,12 @@ Logistic Regression performed better in terms of recall and F1-score, detecting 
 
 The relatively low recall indicates that both models miss a significant number of positive cases. Therefore, these models should be considered as an academic machine learning project rather than a clinically deployable prediction system.
 
+## Limitations
+
+- The models have relatively low recall for the positive class.
+- Accuracy alone is not sufficient for evaluating this imbalanced classification problem.
+- The models are intended for educational purposes and should not be used for clinical decision-making.
+
 ## Visualizations
 
 The notebook contains graphs showing the analysis and performance of the trained models.
